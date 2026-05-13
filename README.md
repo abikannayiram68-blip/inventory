@@ -82,7 +82,7 @@ Seed data creates:
 ## Key API Routes
 
 - `POST /api/auth/register`
-- `POST /api/auth/login`
+- `POST /api/auth/login`    
 - `GET /api/rooms`
 - `POST /api/rooms`
 - `GET /api/resources`
