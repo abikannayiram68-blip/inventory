@@ -499,19 +499,6 @@ Open
 
 
 
-
-11:46 AM
-
-
-
-
-
-
-
-
-
-
-
 - `capacity`
 - `floor_number`
 - `has_projector`
@@ -612,3 +599,4 @@ erDiagram
     datetime deleted_at
   }
 ```
+ migration  are successfully executed
