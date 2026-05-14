@@ -79,8 +79,7 @@ Seed data creates:
 * Admin: `admin@company.com` / `Admin@1234`
 * Employee: `employee@company.com` / `Employee@123`
 
-## Key API Routes
-
+## Kauth
 * `POST /api/auth/register`
 * `POST /api/auth/login`
 * `GET /api/rooms`
@@ -90,7 +89,18 @@ Seed data creates:
 * `POST /api/bookings`
 * `GET /api/bookings`
 * `PATCH /api/bookings/:id/status`
-* `PATCH /api/bookings/:id/cancel`
+* `PATCH /api/book
+- `POST /api/auth/register`
+- `POST /api/auth/login`    
+- `GET /api/rooms`
+- `POST /api/rooms`
+- `GET /api/resources`
+- `POST /api/resources`
+- `POST /api/bookings`
+- `GET /api/bookings`
+- `PATCH /api/bookings/:id/status`
+- `PATCH /api/bookings/:id/cancel
+- main
 
 ## Learning Notes
 
@@ -167,3 +177,7 @@ backend/
 
 See [docs/schema.md](docs/schema.md) for the database schema summary.
  unit testing....
+Inventory Project
+
+- Main setup completed
+- Auth module added (login system)
